@@ -160,4 +160,4 @@ if user_query:
     st.session_state.message_log.append({"role": "ai", "content": ai_response})
     
     # Rerun to update chat display
-    st.experimental_rerun()
+    st.rerun()
